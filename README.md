@@ -1,17 +1,20 @@
-# PostgreSQLCopyHelper #
+# PostgreSQLCopyHelper_v2 #
 
-[![Build Status](https://dev.azure.com/PostgreSqlCopyHelper/PostgreSQLCopyHelper/_apis/build/status/postgresqlcopyhelper.PostgreSQLCopyHelper?branchName=master)](https://dev.azure.com/PostgreSqlCopyHelper/PostgreSQLCopyHelper/_build/latest?definitionId=1&branchName=master)
-[![stable](https://img.shields.io/nuget/v/PostgreSQLCopyHelper.svg?label=stable)](https://www.nuget.org/packages/PostgreSQLCopyHelper/)
-[![prerelease](https://img.shields.io/nuget/vpre/PostgreSQLCopyHelper.svg?label=prerelease)](https://www.nuget.org/packages/PostgreSQLCopyHelper/)
+PostgreSQLCopyHelper_v2 is a library for efficient bulk inserts to PostgreSQL databases. It wraps the COPY methods from [Npgsql](https://github.com/npgsql/npgsql) behind a nice Fluent API.
 
-PostgreSQLCopyHelper is a library for efficient bulk inserts to PostgreSQL databases. It wraps the COPY methods from [Npgsql](https://github.com/npgsql/npgsql) behind a nice Fluent API.
+## Updates by DSRC
+
+As part of our ongoing commitment to maintaining and enhancing open-source projects, DSRC has updated the PostgreSQLCopyHelper library. These updates include:
+
+- Upgraded to .NET Framework 4.8.1 to leverage the latest features and improvements in the .NET framework.
+- Updated all vulnerable packages to their latest, secure versions.
 
 ## Installing ##
 
-To install PostgreSQLCopyHelper, run the following command in the Package Manager Console:
+To install PostgreSQLCopyHelper_v2, run the following command in the Package Manager Console:
 
 ```
-PM> Install-Package PostgreSQLCopyHelper
+PM> Install-Package PostgreSQLCopyHelper_v2
 ```
 
 ## Basic Usage ##

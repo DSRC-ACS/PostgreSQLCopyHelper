@@ -6,9 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PostgreSQLCopyHelper.NodaTime\PostgreSQLCopyHelper.NodaTime.csproj" />
+    <ProjectReference Include="..\PostgreSQLCopyHelper.NodaTime\PostgreSQLCopyHelper.NodaTime_v2.csproj" />
     <ProjectReference Include="..\PostgreSQLCopyHelper.Test\PostgreSQLCopyHelper.Test.csproj" />
-    <ProjectReference Include="..\PostgreSQLCopyHelper\PostgreSQLCopyHelper.csproj" />
+    <ProjectReference Include="..\PostgreSQLCopyHelper\PostgreSQLCopyHelper_v2.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" />
   </ItemGroup>
 
 </Project>

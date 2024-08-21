@@ -56,12 +56,12 @@ namespace PostgreSQLCopyHelper.NodaTime
             return helper.MapNullable(columnName, propertyGetter, NpgsqlDbType.Date);
         }
 
-        public static PostgreSQLCopyHelper<TEntity> MapDate<TEntity>(this PostgreSQLCopyHelper<TEntity> helper, string columnName, Func<TEntity, NpgsqlDate> propertyGetter)
+        public static PostgreSQLCopyHelper<TEntity> MapDate<TEntity>(this PostgreSQLCopyHelper<TEntity> helper, string columnName, Func<TEntity, NpgsqlTypes.NpgsqlPoint> propertyGetter)
         {
             return helper.Map(columnName, propertyGetter, NpgsqlDbType.Date);
         }
 
-        public static PostgreSQLCopyHelper<TEntity> MapDate<TEntity>(this PostgreSQLCopyHelper<TEntity> helper, string columnName, Func<TEntity, NpgsqlDate?> propertyGetter)
+        public static PostgreSQLCopyHelper<TEntity> MapDate<TEntity>(this PostgreSQLCopyHelper<TEntity> helper, string columnName, Func<TEntity, NpgsqlTypes.NpgsqlPoint?> propertyGetter)
         {
             return helper.MapNullable(columnName, propertyGetter, NpgsqlDbType.Date);
         }

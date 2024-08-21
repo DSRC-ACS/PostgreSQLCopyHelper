@@ -1,2 +1,4 @@
 .vs
 PostgreSQLCopyHelper/PostgreSQLCopyHelper/PostgreSQLCopyHelper.Test/PostgreSQLCopyHelper.Test.csproj.user
+**/bin/**
+**/obj/**
